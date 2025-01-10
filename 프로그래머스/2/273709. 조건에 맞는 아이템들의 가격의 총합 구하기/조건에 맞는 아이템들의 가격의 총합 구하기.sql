@@ -1,6 +1,3 @@
-SELECT
-    SUM(price) total_price
-FROM
-    item_info
-WHERE
-    rarity = 'legend';
+SELECT SUM(PRICE) TOTAL_PRICE
+FROM ITEM_INFO
+WHERE RARITY = 'LEGEND';
